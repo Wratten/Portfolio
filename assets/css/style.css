@@ -106,9 +106,6 @@ h1 {
    justify-content: center;
  }
 
-footer {
-}
-
 footer h1 {
    text-align: center;
 }
@@ -146,12 +143,12 @@ figure img {
 
 .projects {
    flex-direction: column;
+   margin: 10px;
 }
 
 .card {
-   width: 95%;
-   margin-right: 2%;
-   margin-left: 2%;
+   width: 100%;
+   margin: 10px 0;
 }
 
 
