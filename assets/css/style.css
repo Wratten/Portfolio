@@ -79,6 +79,8 @@ h1 {
  } 
 .projects {
    display: flex;
+   flex-wrap: wrap-reverse;
+   
 }
 
 .card {
@@ -89,6 +91,7 @@ h1 {
    flex-grow: 1;
    flex-shrink: 0;
    justify-content: center;
+   
  }
  
 .card header {
