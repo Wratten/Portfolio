@@ -129,6 +129,9 @@ footer li {
   margin-top: 10px;
 }
 
+footer a {
+  color: #1f1f1f;
+}
 footer ul {
   margin-bottom: 20px;
 }
