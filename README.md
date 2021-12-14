@@ -10,7 +10,7 @@ A website made using HTML and CSS with the purpose of displaying my projects and
 - A few of my projects with links to the deployed application on the image
 - A few links where I can be contacted
 
-# 📑 [Deployed Website](https://wratten.github.io/Portfolio/https://github.com/Wratten/Portfolio)
+# 📑 [Deployed Website](https://wratten.github.io/Portfolio/)
 
 <img src="websitescreenshot.png"
      alt="Markdown Monster icon"/>
