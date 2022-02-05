@@ -17,7 +17,10 @@ main h1 {
 main p {
   margin: 30px;
 }
-
+h2 {
+  color: #1f1f1f;
+  font-family: "Poppins", sans-serif;
+}
 nav {
   display: flex;
   justify-content: space-around;
@@ -28,6 +31,9 @@ nav {
   flex-direction: row;
 }
 
+body {
+  background-color: rgb(243, 243, 243);
+}
 .logo {
   color: white;
   text-transform: uppercase;
@@ -78,6 +84,10 @@ h1 {
   font-family: "Poppins", sans-serif;
   text-align: center;
   font-weight: bold;
+}
+
+a {
+  text-decoration: none;
 }
 .projects {
   display: flex;
