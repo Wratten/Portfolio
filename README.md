@@ -1,16 +1,28 @@
-# 📔 Portfolio
+# Portfolio
 
-A website made using HTML and CSS with the purpose of displaying my projects and details about me using minimal design.
+![License](https://img.shields.io/badge/License-MIT-blue)
 
-## Includes:
+## Description
 
-- Navbar with anchor links to sections down the page for easy access
-- An image of me
-- A brief about me section
-- A few of my projects with links to the deployed application on the image
-- A few links where I can be contacted
+    A website with the purpose of displaying my projects and details about me.
+
+## Built With
+
+    HTML
+    CSS
+    JS
+    BootStrap
+    jQuery
 
 # 📑 [Deployed Website](https://wratten.github.io/Portfolio/)
 
 <img src="websitescreenshot.png"
      alt="Markdown Monster icon"/>
+
+## License
+
+      This project is using the MIT license.
+
+## Questions
+
+If you have any questions about this repo please feel free to reach out to me through [GitHub](https://github.com/Wratten) or [Email](mailto:daniel.wratten@gmail.com)

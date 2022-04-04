@@ -2,87 +2,266 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!--==================== UNICONS ====================-->
+
     <link
-      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
       rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
     />
-    <title>Daniel Wratten</title>
+    
+    <!--==================== BOOTSTRAP & CSS ====================-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/css/reset.css" />
     <link rel="stylesheet" href="./assets/css/style.css" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Daniel Wratten</title>
   </head>
   <main>
     <header>
+       <!--==================== NAVBAR ====================-->
       <nav id="home">
         <div class="logo">
           <h4>Wratten</h4>
         </div>
-        <ul class="nav-links">
+        <ul class="nav-links"> 
           <li>
-            <a href="./assets/Daniel-W-Resume.docx">Resume</a>
+            <a href="./assets/Daniel-W-Resume.docx"><i class="uil uil-file-alt"></i> Resume</a>
           </li>
           <li>
-            <a href="https://www.linkedin.com/in/daniel-wratten-b362b2222/" target="_blank">LinkedIn</a>
+            <a href="https://www.linkedin.com/in/daniel-wratten-b362b2222/" target="_blank"><i class="uil uil-linkedin"></i> LinkedIn</a>
           </li>
           <li>
-            <a href="https://github.com/Wratten" target="_blank">Github</a>
+            <a href="https://github.com/Wratten" target="_blank"><i class="uil uil-github-alt"></i> Github</a>
           </li>
         </ul>
       </nav>
     </header>
-    <figure>
-       <img src="./assets/images/displayphoto.jpg" alt="Picture of me standing infront of a sunflower"></img>
-      </figure>
+      <!--==================== HERO ====================-->
+    <div class="content_container">
+      <div class="hero-image">
+         <div id="hero-text">
+         Hey, I'm Dan
+         </div>
+       </div>
+    <!--==================== ABOUT ME ====================-->
       <h1 id="about">
          About Me
       </h1>
       <p>
-         Hey, I'm Daniel. I'm a young software student from Perth, Western Australia, with a passion for clean, minimal design. I'm currently enrolled in the UWA Coding Bootcamp to become a Full-Stack Developer.
+         I'm a young software student from Perth, Western Australia, with a passion for clean, minimal design. I'm currently enrolled in the UWA Coding Bootcamp to become a Full-Stack Developer.
+         </p>
+         <p>
+         I've been around computers for as long as I remember, from my parents owning an original PlayStation when I was born to spending a lot of my teenage years playing games and attempting to learn programs like photoshop and lightroom.
       </p>
-  <h1 id="projects">Check out some of my projects.</h1>
+         <p>
+         My coding story starts with being recommended to try coding after playing a game called 'Factorio' where you create a large factory with assembly lines and conveyor belts, often using problem solving skills and finding little errors and correcting them, and after trying it myself, I was hooked.
+      </p>
+      <p>
+         My first few projects involved a to-do list (the right of passage for developers) and making the first iteration of my portfolio. After following tutorials for a while, I enjoyed the exposure to technologies but felt that I wasn't learning as much as I could be, so I signed up for the UWA Coding Bootcamp. It's exposed me to more technologies and put me in a position where I'm learning so much and working on a project every week. 
+      </p>
+      <p>
+         I'm looking forward to learning new technologies and hoping to find a place where I can facilitate my growth as a developer.
+      </p>
+
+      <!--==================== PROJECTS ====================-->
+  <h1 id="projects">Check out some of my projects:</h1>
   <br>
-  <h2>Click on the image to go to the deployed application, and the title text to go to the Github repository.</h2>
+<!--==================== MODALS ====================-->
+<!-- junglr Modal -->
+<div class="modal fade" id="project-1-modal" tabindex="-1" role="dialog" aria-labelledby="project-1-modal-label" aria-hidden="true">
+   <div class="modal-dialog" role="document">
+     <div class="modal-content">
+       <div class="modal-header">
+          <!-- Modal Title -->
+         <h1 class="modal-title" id="project-1-modal-label">junglr.</h1>
+         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+           <span aria-hidden="true">&times;</span>
+         </button>
+       </div>
+       <!-- Modal  Content -->
+       <div class="modal-body">
+         
+         <div class="process">
+            <p>A message-board style app with a twist. All the content on the page is encrypted into monkey-related words until the user is logged in. Featuring reacts, and real time updates to connected clients via websockets.
+            </p>
+         </div>
+       </div>
+       <div class="modal-links">
+         <ul class="links-list">
+            <li class="modal-link"><a href="https://github.com/Wratten/junglr." target="_blank"><i class="uil uil-github-alt"></i> Code</li></a>
+            <li class="modal-link"><a href="https://project-2-dw.herokuapp.com/" target="_blank"><i class="uil uil-browser"></i> Deployed Project</li></a>
+         </ul>
+      </div>
+       <div class="modal-footer">
+        
+          <!-- Modal Close Button -->
+         <button type="button" class="close-modal-btn btn" data-dismiss="modal">Close</button>
+       </div>
+     </div>
+   </div>
+ </div>
+ 
+ <!-- Comet Watch Modal -->
+<div class="modal fade" id="project-2-modal" tabindex="-1" role="dialog" aria-labelledby="project-2-modal-label" aria-hidden="true">
+   <div class="modal-dialog" role="document">
+     <div class="modal-content">
+       <div class="modal-header">
+          <!-- Modal Title -->
+         <h1 class="modal-title" id="project-2-modal-label">Comet Watch</h1>
+         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+           <span aria-hidden="true">&times;</span>
+         </button>
+       </div>
+       <!-- Modal  Content -->
+       <div class="modal-body">
+         <div class="process">
+            <p>A website that allows the user to search for a date and returns every near-earth object and the astronomy picture of the day for that date.
+            </p>
+         </div>
+       </div>
+        <!-- Modal Links -->
+       <div class="modal-links">
+         <ul class="links-list">
+            <li class="modal-link"><a href="https://github.com/Wratten/Comet-Watch" target="_blank"><i class="uil uil-github-alt"></i> Code</li></a>
+            <li class="modal-link"><a href="https://wratten.github.io/Comet-Watch/" target="_blank"><i class="uil uil-browser"></i> Deployed Project</li></a>
+         </ul>
+      </div>
+       <div class="modal-footer">
+        
+          <!-- Modal Close Button -->
+         <button type="button" class="close-modal-btn btn" data-dismiss="modal">Close</button>
+       </div>
+     </div>
+   </div>
+ </div>
+
+ <!-- Weather Dashboard Modal -->
+<div class="modal fade" id="project-3-modal" tabindex="-1" role="dialog" aria-labelledby="project-3-modal-label" aria-hidden="true">
+   <div class="modal-dialog" role="document">
+     <div class="modal-content">
+       <div class="modal-header">
+          <!-- Modal Title -->
+         <h1 class="modal-title" id="project-3-modal-label">Weather Dashboard</h1>
+         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+           <span aria-hidden="true">&times;</span>
+         </button>
+       </div>
+       <!-- Modal  Content -->
+       <div class="modal-body">
+         <div class="process">
+            <p>An app that uses the OpenWeatherMap API to get a weather forecast based on location searches.
+            </p>
+         </div>
+       </div>
+       <div class="modal-links">
+         <ul class="links-list">
+            <li class="modal-link"><a href="https://github.com/Wratten/Weather-Dashboard" target="_blank"><i class="uil uil-github-alt"></i> Code</li></a>
+            <li class="modal-link"><a href="https://wratten.github.io/Weather-Dashboard/" target="_blank"><i class="uil uil-browser"></i> Deployed Project</li></a>
+         </ul>
+      </div>
+       <div class="modal-footer">
+        
+          <!-- Modal Close Button -->
+         <button type="button" class="close-modal-btn btn" data-dismiss="modal">Close</button>
+       </div>
+     </div>
+   </div>
+ </div>
+
+ <!-- Tech Blog Modal -->
+<div class="modal fade" id="project-4-modal" tabindex="-1" role="dialog" aria-labelledby="project-4-modal-label" aria-hidden="true">
+   <div class="modal-dialog" role="document">
+     <div class="modal-content">
+       <div class="modal-header">
+          <!-- Modal Title -->
+         <h1 class="modal-title" id="project-4-modal-label">Tech Blog</h1>
+         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+           <span aria-hidden="true">&times;</span>
+         </button>
+       </div>
+       <!-- Modal  Content -->
+       <div class="modal-body">
+         
+         <div class="process">
+            <p>A website that allows a user to create an account and log in, and create posts on a website with title and content to share.
+            </p>
+         </div>
+       </div>
+       <div class="modal-links">
+         <ul class="links-list">
+            <li class="modal-link"><a href="https://github.com/Wratten/Tech-Blog" target="_blank"><i class="uil uil-github-alt"></i> Code</li></a>
+            <li class="modal-link"><a href="https://tech-blog-dw.herokuapp.com/" target="_blank"><i class="uil uil-browser"></i> Deployed Project</li></a>
+         </ul>
+      </div>
+       <div class="modal-footer">
+        
+          <!-- Modal Close Button -->
+         <button type="button" class="close-modal-btn btn" data-dismiss="modal">Close</button>
+       </div>
+     </div>
+   </div>
+ </div>
+
+ <!-- Code Quiz Modal -->
+<div class="modal fade" id="project-5-modal" tabindex="-1" role="dialog" aria-labelledby="project-5-modal-label" aria-hidden="true">
+   <div class="modal-dialog" role="document">
+     <div class="modal-content">
+       <div class="modal-header">
+          <!-- Modal Title -->
+         <h1 class="modal-title" id="project-5-modal-label">Code Quiz</h1>
+         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+           <span aria-hidden="true">&times;</span>
+         </button>
+       </div>
+       <!-- Modal  Content -->
+       <div class="modal-body">
+         <div class="process">
+            <p>This website tests the users basic JavaScript knowledge by asking the user multiple choice questions with a timer, that goes down if an answer is incorrect.
+            </p>
+         </div>
+       </div>
+       <div class="modal-links">
+         <ul class="links-list">
+            <li class="modal-link"><a href="https://github.com/Wratten/Code-Quiz" target="_blank"><i class="uil uil-github-alt"></i> Code</li></a>
+            <li class="modal-link"><a href="https://wratten.github.io/Code-Quiz/" target="_blank"><i class="uil uil-browser"></i> Deployed Project</li></a>
+         </ul>
+      </div>
+       <div class="modal-footer">
+        
+          <!-- Modal Close Button -->
+         <button type="button" class="close-modal-btn btn" data-dismiss="modal">Close</button>
+       </div>
+     </div>
+   </div>
+ </div>
+
+ 
+<!--==================== CARDS ====================-->
    <article class="projects">
-    <section class="card">
-       <a href="https://github.com/Wratten/To-do-List" target="_blank">
-       <header class="card-header">To-do List</header></a>
-       <a href="https://wratten.github.io/To-do-List/" target="_blank">
-          <img src="./assets/images/todo.PNG">
-         </a>
+    <section class="card" data-toggle="modal" data-target="#project-1-modal">
+       <header class="card-header">junglr.</header>
+          <img src="./assets/images/junglr.png">
       </section>
-    <section class="card">
-      <a href="https://github.com/Wratten/Password-Generator" target="_blank">
-       <header class="card-header">Password Generator</header></a>
-       <a href="https://wratten.github.io/Password-Generator/" target="_blank">
-          <img src="./assets/images/password-generator.PNG">
-         </a>
+      <section class="card" data-toggle="modal" data-target="#project-2-modal">
+          <header class="card-header">Comet Watch</header>
+             <img src="./assets/images/comet-watch.png">
+         </section>
+         <section class="card" data-toggle="modal" data-target="#project-3-modal">
+            <header class="card-header">Weather Dashboard</header>
+               <img src="./assets/images/weather-app.jpg">
+           </section>
+    <section class="card" data-toggle="modal" data-target="#project-4-modal">
+       <header class="card-header">Tech Blog</header>
+          <img src="./assets/images/techblog.png">
       </section>
-    <section class="card">
-      <a href="https://github.com/Wratten/Code-Quiz" target="_blank">
-          <header class="card-header">Code Quiz</header></a>
-         </a>
-         <a href="https://wratten.github.io/Code-Quiz/" target="_blank">
+    <section class="card" data-toggle="modal" data-target="#project-5-modal">
+          <header class="card-header">Code Quiz</header>
             <img src="./assets/images/codequiz.png">
-         </a>
-      </section>
-    <section class="card">
-      <a href="https://github.com/Wratten/Weather-Dashboard" target="_blank">
-       <header class="card-header">Weather App</header></a>
-       <a href="https://wratten.github.io/Weather-Dashboard/" target="_blank">
-          <img src="./assets/images/weather-app.jpg">
-         </a>
-      </section>
-    <section class="card">
-      <a href="https://github.com/Wratten/Comet-Watch" target="_blank">
-       <header class="card-header">Comet Watch</header></a>
-       <a href="https://wratten.github.io/Comet-Watch/" target="_blank">
-          <img src="./assets/images/comet-watch.png">
-         </a>
       </section>
    </article>
+   <!--==================== CONTACT ME ====================-->
    <footer><h1 id="contact-me">Contact Me</h1>
    <ul class="contact-me">
       <li><a href="https://github.com/Wratten">Github</a></li>
@@ -90,6 +269,10 @@
       <li><a href="https://www.linkedin.com/in/daniel-wratten-b362b2222/">LinkedIn</a></li>
    </ul>
 </footer>
+</div>
 </main>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   </body>
 </html>
