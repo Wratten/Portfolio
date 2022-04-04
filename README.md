@@ -16,7 +16,7 @@
 
 # 📑 [Deployed Website](https://wratten.github.io/Portfolio/)
 
-<img src="websitescreenshot.png"
+<img src="portfolioscreenshot.png"
      alt="Markdown Monster icon"/>
 
 ## License
