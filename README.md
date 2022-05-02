@@ -5,6 +5,7 @@
 ## Description
 
     A website with the purpose of displaying my projects and details about me.
+    There will be a react portfolio soon which will make this repo redundant.
 
 ## Built With
 
